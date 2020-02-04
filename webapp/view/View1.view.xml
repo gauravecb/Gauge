@@ -1,0 +1,15 @@
+<mvc:View controllerName="com.gauge.gaugeExample.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+	xmlns:chart="com.gauge.gaugeExample.src">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+				<!--	<chart:GoogleChartGauge label='Memory' value= "80" redFrom = "90" redTo = "100" yellowFrom = "75" yellowTo = "90" minorTicks = "5"></chart:GoogleChartGauge>-->
+						</content>
+							
+						</Page>
+					</pages>
+				</App>
+			</Shell>
+		</mvc:View>
